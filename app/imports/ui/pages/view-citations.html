@@ -1,0 +1,32 @@
+<template name="View_Citations">
+  <div class="ui container">
+    <div class="ui text container">
+      <form class="ui form">
+        <label>Choose Search Type</label>
+        <div class="ui horizontal divider"></div>
+        <div class="field">
+          <div class="ui radio checkbox">
+            <input type="radio" name="type">
+            <label>Citation Number</label>
+          </div>
+        </div>
+        <div class="field">
+          <div class="ui radio checkbox">
+            <input type="radio" name="type">
+            <label>Licence Plate</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>Citation Number</label>
+          <input type="text" name="citation-number" placeholder="Citation #">
+        </div>
+        <div class="field">
+          <label>License Plate</label>
+          <input type="text" name="last-name" placeholder="Plate #">
+        </div>
+       <!-- <button class="ui button" type="submit">Submit</button> -->
+        <a class="ui button" href="{{pathFor 'List_Citations'}}" type="submit">Submit</a>
+      </form>
+    </div>
+  </div>
+</template>

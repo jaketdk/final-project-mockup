@@ -8,3 +8,9 @@ import './home-page.html';
 
 import './list-stuff-page.html';
 import './list-stuff-page.js';
+
+import './view-citations.html';
+import './view-citations.js';
+
+import './list-citations.html';
+import './list-citations.js';

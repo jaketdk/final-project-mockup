@@ -8,6 +8,20 @@ FlowRouter.route('/', {
   },
 });
 
+FlowRouter.route('/citations', {
+  name: 'View_Citations',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'View_Citations' });
+  },
+});
+
+FlowRouter.route('/listcitations', {
+  name: 'List_Citations',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'List_Citations' });
+  },
+});
+
 FlowRouter.route('/list', {
   name: 'List_Stuff_Page',
   action() {
